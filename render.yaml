@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: livekit-server
+    runtime: docker
+    repo: https://github.com/dein-repo/livekit
+    plan: free
+    envVars:
+      - key: APIc8dJWWe5c7Sg
+        sync: false
+      - key: mLmCBAGeBjfFiNEroFHVCkoTN445oPoqatiS5uie6jIB
+        sync: false
+    disk:
+      name: livekit-storage
+      mountPath: /app/storage
+      sizeGB: 1
