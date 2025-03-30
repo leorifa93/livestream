@@ -2,7 +2,7 @@ services:
   - type: web
     name: livekit-server
     runtime: docker
-    repo: https://github.com/dein-repo/livekit
+    repo: https://github.com/leorifa93/livestream
     plan: free
     envVars:
       - key: APIc8dJWWe5c7Sg
