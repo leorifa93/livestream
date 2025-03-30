@@ -6,3 +6,5 @@ rtc:
   use_external_ip: true
 keys:
   APIc8dJWWe5c7Sg: mLmCBAGeBjfFiNEroFHVCkoTN445oPoqatiS5uie6jIB
+turn:
+  key_file: /app/keys.json
