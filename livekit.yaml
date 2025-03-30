@@ -7,4 +7,5 @@ rtc:
 keys:
   APIc8dJWWe5c7Sg: mLmCBAGeBjfFiNEroFHVCkoTN445oPoqatiS5uie6jIB
 turn:
-  key_file: /app/keys.json
+  enabled: false
+  tls_port: 443
